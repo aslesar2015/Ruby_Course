@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root to: "univer#contacts"
+  resources :groups
   resources :faculties
   get 'univer/contacts'
 
